@@ -32,8 +32,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.(svg|png)$/,
-        type: 'asset/resource'
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
@@ -47,4 +47,5 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+};
 };
